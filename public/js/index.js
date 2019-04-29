@@ -1,7 +1,8 @@
 $(function(){
 	//初始化table
-	var oTable = new TableInit();
+	var oTable = new TableInit();//闭包函数的调用
 	oTable.init();
+	// TableInit().init();
 })
 var TableInit = function() {
 	var oTableInit = new Object();
